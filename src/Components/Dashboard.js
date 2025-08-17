@@ -74,7 +74,7 @@ function Dashboard() {
                 <p className="lead my-4">
                   Discover exclusive deals on the latest trends. Everything you need, delivered to your doorstep.
                 </p>
-                <Link to="/collection" className="btn btn-primary btn-lg px-5">See Collection</Link>
+                <Link to="/collection" className="btn btn-primary btn-lg px-5">Explore Collection</Link>
               </div>
 
               {/* Right Side: Product Showcase */}
@@ -84,7 +84,6 @@ function Dashboard() {
                   {featuredProducts.map(product => (
                     <Link to={`/product/${product.id}`} className="text-decoration-none text-white" key={product.id}>
                       <div className="product-showcase-item">
-			  A
                         <img src={product.image} alt={product.name} />
                         <div className="flex-grow-1">
                           <h5 className="mb-1">{product.name}</h5>
