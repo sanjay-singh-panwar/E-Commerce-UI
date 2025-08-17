@@ -54,7 +54,7 @@ const styles = `
 function Dashboard() {
   // Sample data
   const featuredProducts = [
-    { id: 1, name: 'Smart Fitness Watch', price: '₹4,999', image: 'https://images.unsplash.com/photo-1546868871-7041f2a55e12?q=80&w=1964&auto=format&fit=crop' },
+    { id: 1, name: 'Smart Fitness Watch', price: '₹4,499', image: 'https://images.unsplash.com/photo-1546868871-7041f2a55e12?q=80&w=1964&auto=format&fit=crop' },
     { id: 2, name: 'Wireless Headphones', price: '₹8,999', image: 'https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=2070&auto=format&fit=crop' },
   ];
 
@@ -114,7 +114,6 @@ function Dashboard() {
               </div>
             </div>
           </div>
-	  B
         </footer>
         
       </div>
